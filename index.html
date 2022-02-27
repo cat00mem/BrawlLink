@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+        .info {
+  padding: 15px;
+  background-color:#e3d3d3;
+  border-radius:20px;
+  font-size: 25px;
+}
+
+.lol {
+  margin-top:20px;
+  padding: 15px;
+  padding-bottom:5px;
+  background-color:#e3d3d3;
+  border-radius:20px;
+  font-size: 25px;
+}
+
+.loll {
+  margin-top:20px;
+  padding: 15px;
+  padding-bottom:30px;
+  background-color:#e3d3d3;
+  border-radius:20px;
+  font-size: 25px;
+}
+
+button {
+  margin-bottom:10px;
+  width:100%;
+  background-color:white;
+  border:0;
+  height:40px;
+  border-radius:13px;
+  font-size:20px;
+}
+
+input {
+  margin-bottom:10px;
+  width:calc(100% - 12px);
+  background-color:white;
+  border:0;
+  height:40px;
+  border-radius:13px;
+  font-size:20px;
+  padding-left:10px;
+}
+
+.sit {
+  color:#948b8b;
+  position:absolute;
+  margin-top:-5px;
+  font-style:italic;
+}
+    </style>
+</head>
+<body>
+    <div class="info">
+ <p>👽 Этот сайт открывает раззные ссылки в brawl stars</p>
+ <p>😝 Ничего скачивать не нужно! (корме бравла)</p>
+ <p>🤑 чтобы открыть сайт в бравле, нужно нажать на любую кнопку, если вашего сайта там нет, можно ввести свой и нажать открыть!</p>
+</div>
+<div class="lol">
+  <input type="text" class="link" placeholder=">>> Ваша ссылка! <<<">
+ <button class="ok">Oк</button>
+</div>
+<div class="lol">
+  <button align="center" class="Google" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://www.google.ru/;popup_title=Google&quot;;">Google</button>
+  <button align="center" class="youtube" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://youtube.com/;popup_title=YouTube&quot;;">YouTube</button>
+  <button align="center" class="tt" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://www.tiktok.com/;popup_title=TikTok&quot;;">TikTok</button>
+  <button align="center" class="gd" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://googledino.ru/en/;popup_title=GoogleDino&quot;;">Google дино</button>
+  <button align="center" class="tg" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://yandex.ru/games/;popup_title=Яндекс игры";">Яндекс игры</button>
+  <button align="center" class="vk" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://m.vk.com/feed;popup_title=Vk&quot;;">VK</button>
+</div>
+
+<div class="loll">
+<button align="center" class="vk" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=http://catmem.site;popup_title=catmem&quot;;">catmem.site</button>
+<p class="sit">сайт разработчика!</p>
+</div>
+<script type="text/javascript">
+    let button = document.querySelector(".ok")
+button.addEventListener("click", (e) => {
+    let link = document.querySelector(".link").value
+    if (link.length > 0){
+    link = `brawlstars://webview?page=${link};popup_title=Браузер`
+    window.location.href = link
+   } 
+})
+</script>
+</body>
+</html>
