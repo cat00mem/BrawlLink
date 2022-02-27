@@ -74,7 +74,7 @@ input {
   <button align="center" class="youtube" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://youtube.com/;popup_title=YouTube&quot;;">YouTube</button>
   <button align="center" class="tt" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://www.tiktok.com/;popup_title=TikTok&quot;;">TikTok</button>
   <button align="center" class="gd" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://googledino.ru/en/;popup_title=GoogleDino&quot;;">Google дино</button>
-  <button align="center" class="tg" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://yandex.ru/games/;popup_title=ЯндексИгры&quot;;";;">Яндекс игры</button>
+  <button align="center" class="tg" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://yandex.ru/games/;popup_title=YandexGames&quot;;";;">Яндекс игры</button>
   <button align="center" class="vk" type="button" role="button" onclick="javascript:window.location.href=&quot;brawlstars://webview?page=https://m.vk.com/feed;popup_title=Vk&quot;;">VK</button>
 </div>
 
@@ -87,7 +87,7 @@ input {
 button.addEventListener("click", (e) => {
     let link = document.querySelector(".link").value
     if (link.length > 0){
-    link = `brawlstars://webview?page=${link};popup_title=Браузер`
+    link = `brawlstars://webview?page=${link};popup_title=your link`
     window.location.href = link
    } 
 })
