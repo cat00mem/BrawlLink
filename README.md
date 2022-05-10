@@ -2,4 +2,4 @@
 
 открыватель ссылок в встроенном браузере Brawl Stars. Использование очень лёгкое! пишешь свою ссылку, или нажимаешь на загатовленную кнопку, и ссылка открывается в brawl stars
 
-Ссылка - https://github.com/cat00mem/BrawlLink
+Ссылка - https://cat00mem.github.io/BrawlLink/
